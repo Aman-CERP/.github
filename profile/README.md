@@ -54,24 +54,10 @@ Organization
 ### Technical Foundation
 
 - **Multi-tenant by design** - True isolation with shared infrastructure efficiency
-- **Fine-grained authorization** - Relationship-based access control (OpenFGA)
-- **Event-driven architecture** - NATS JetStream for real-time everything
+- **Fine-grained authorization** - Relationship-based access control
+- **Event-driven architecture** - Real-time everything
 - **AI-first** - Not an add-on, but woven into every interaction
 - **Cloud-native** - Built for scale from line one
-
----
-
-## Technology Stack
-
-```
-Backend:    Go (Chi router) - performance-first
-Auth:       Logto OSS (identity) + OpenFGA (authorization)
-Database:   PostgreSQL (Neon) + Dragonfly (cache)
-Events:     NATS JetStream
-Observability: SigNoz + OpenTelemetry
-Frontend:   Next.js 16+ (React 19), Tailwind v4, shadcn/ui
-Infra:      Pulumi, Docker, Cloudflare R2
-```
 
 ---
 
@@ -91,33 +77,13 @@ We're building AmanERP on a foundation of **open-source engines** - reusable, pr
 
 ## Repositories
 
-| Repository | Description | Status |
-|------------|-------------|--------|
-| [`Aman-PM`](https://github.com/Aman-CERP/Aman-PM) | AI-native project management for developers | Active |
-| [`amanmcp`](https://github.com/Aman-CERP/amanmcp) | Local-first RAG MCP server for codebases | Active |
-| [`linecount`](https://github.com/Aman-CERP/linecount) | VS Code extension for line count analytics | Active |
-| [`homebrew-amanmcp`](https://github.com/Aman-CERP/homebrew-amanmcp) | Homebrew tap for AmanMCP | Active |
+| Repository | Description |
+|------------|-------------|
+| [`Aman-PM`](https://github.com/Aman-CERP/Aman-PM) | AI-native project management for developers |
+| [`amanmcp`](https://github.com/Aman-CERP/amanmcp) | Local-first RAG MCP server for codebases |
+| [`linecount`](https://github.com/Aman-CERP/linecount) | VS Code extension for line count analytics |
 
-*Engines will be released as separate repositories as they stabilize in production.*
-
----
-
-## Current Status
-
-**Phase 5 Complete** - Identity Provider Migration delivered. 5/5 sprints at 100% completion.
-
-**What's working:**
-- Multi-tenant organization structure with fine-grained permissions
-- Relationship-based access control via OpenFGA
-- Identity management via Logto OSS (IdentityProvider interface pattern)
-- Cross-tenant access for auditors and consultants
-- Full observability stack (SigNoz + OpenTelemetry)
-- Web application foundation (Next.js 16+)
-
-**What's next:**
-- Authentication methods (magic link, social login, MFA)
-- Production hardening (rate limiting, audit logging, data reconciliation)
-- Revenue infrastructure (subscription enforcement, entitlements)
+*More engines will be released as they stabilize in production.*
 
 ---
 
@@ -154,5 +120,7 @@ We're building the foundation and selectively open-sourcing components. You can:
 ### Enterprise power. Consumer simplicity.
 
 *Made with purpose in India.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Niraj_Kumar-0A66C2?logo=linkedin)](https://www.linkedin.com/in/nirajkvinit/)
 
 </div>
