@@ -82,6 +82,7 @@ We're building AmanERP on a foundation of **open-source engines** - reusable, pr
 | [`Aman-PM`](https://github.com/Aman-CERP/Aman-PM) | AI-native project management for developers |
 | [`amanmcp`](https://github.com/Aman-CERP/amanmcp) | Local-first RAG MCP server for codebases |
 | [`linecount`](https://github.com/Aman-CERP/linecount) | VS Code extension for line count analytics |
+| [`color-psych-ui-demo`](https://github.com/Aman-CERP/color-psych-ui-demo) | Aether Lab — interactive color-psychology UI studio (React 19, 34 WCAG-AA palettes) · [live demo](https://color-psych-ui.pages.dev) |
 
 *More engines will be released as they stabilize in production.*
 
